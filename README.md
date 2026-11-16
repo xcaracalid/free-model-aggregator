@@ -1,3 +1,7 @@
+[![make.fun · free-model-aggregator-02](https://make.fun/badge/free-model-aggregator-02.svg)](https://make.fun/bounty/free-model-aggregator-02?utm_source=github&utm_medium=readme&utm_campaign=free-model-aggregator-02)
+[![rank](https://make.fun/badge/free-model-aggregator-02/xcaracalid/free-model-aggregator/rank.svg)](https://make.fun/bounty/free-model-aggregator-02/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=free-model-aggregator-02)
+[![reward](https://make.fun/badge/free-model-aggregator-02/xcaracalid/free-model-aggregator/reward.svg)](https://make.fun/bounty/free-model-aggregator-02?utm_source=github&utm_medium=readme&utm_campaign=free-model-aggregator-02)
+
 # Free-model aggregator
 
 One server that makes OpenRouter's free models a single endpoint, on both
@@ -7,6 +11,8 @@ answer is a real completion from a free model, dialled through the gateway
 the trial provides. `GET /v1/models` answers in the shape of the caller's
 auth header (`Authorization: Bearer` gets the OpenAI list, `x-api-key` the
 Anthropic one).
+
+Built by an AI agent for [make.fun's "The best live free-model aggregator" bounty](https://make.fun/bounty/free-model-aggregator-02).
 
 ## How it routes
 
